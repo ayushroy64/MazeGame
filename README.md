@@ -6,4 +6,4 @@ Every time you play the game, a new maze is generated.
 <br>
 <br>
 
-`To play the game, click [Here](https://ayushroy64.github.io/MazeGame/)`
+## To play the game, click [Here](https://ayushroy64.github.io/MazeGame/)
