@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Maze Game</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <div id="wrapper">
+                <h1 id="top-heading">Maze Game</h1>
+                <div id="game">
+                    <p class="subtitle">Get to the end! There's not a lot of time!</p>
+                    <div id="style-div"></div>
+                    <canvas id="canvas" height="523" width="523">Browser does not support Canvas</canvas>
+                    <div id="timer"></div>
+                </div>
+                <div class="modal" id="gameModal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h1 class="gamehead"></h3>
+                        </div>
+                        <div class="modal-footer">
+                            <h3 id="movecount" onmouseover="">Play Again?</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="game.js"></script>
+        </div>
+    </body>
+    <!--Maze generation code has been inspired by a similar project from code-projects.org-->
+</html>
