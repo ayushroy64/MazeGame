@@ -401,6 +401,6 @@ function random(min, max)      { return (min + (Math.random() * (max - min)));  
         m.gen_maze();
         m.draw_canvas("canvas");
         function drawMoves() {
-            document.getElementById("movecount").innerHTML = "Moves: "+ m.getMoves()
+            document.getElementById("movecount").innerHTML = "Moves: "+ m.getMoves() + ". Play Again?"
         }
        setInterval(drawMoves, 100);
